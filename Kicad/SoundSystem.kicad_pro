@@ -665,7 +665,7 @@
         "uuid": "ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d"
       }
     ],
-    "used_designators": "J3,R2,#PWR105",
+    "used_designators": "RV1,TP1-5,#PWR17,#PWR23,#PWR107,#PWR110-113,U17,R66,J1",
     "variants": []
   },
   "sheets": [
@@ -680,10 +680,6 @@
     [
       "865d65b0-54ca-430c-80f9-bc603c1f6d23",
       "Input Stage"
-    ],
-    [
-      "1e42edf2-2833-4700-a455-aef2a3856540",
-      "Volume Control"
     ],
     [
       "6369912f-8610-4115-bec9-72d009a522a4",
@@ -703,7 +699,7 @@
     ],
     [
       "3e42e31f-f69c-48fe-9507-d66053da3ffa",
-      "ESP32"
+      "Microcontroller"
     ],
     [
       "f16c3d29-2f5d-4c4d-ba4f-a1fa0f69088e",
@@ -720,6 +716,10 @@
     [
       "24e41b4f-36be-4704-925e-eb5dbf0fa975",
       "Stereo Right Channel"
+    ],
+    [
+      "d1a1afbf-fd3b-4623-ae7d-7479e92669f0",
+      "Power measurement"
     ],
     [
       "8030a35b-e123-46f6-b13a-001d29265ac2",

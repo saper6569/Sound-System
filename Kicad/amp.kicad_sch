@@ -4313,16 +4313,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 67.31) (xy 57.15 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90980358-07af-47a4-b200-3344d3fd8dd1")
-	)
-	(wire
-		(pts
 			(xy 43.18 171.45) (xy 49.53 171.45)
 		)
 		(stroke
@@ -4993,6 +4983,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 46.99) (xy 62.23 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d156e0-4b4c-4183-93fd-8db2dedfd633")
+	)
+	(wire
+		(pts
 			(xy 185.42 80.01) (xy 121.92 80.01)
 		)
 		(stroke
@@ -5073,6 +5073,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 67.31) (xy 57.15 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddc41cd2-ed17-4301-9f66-630f35f813ca")
+	)
+	(wire
+		(pts
 			(xy 151.13 133.35) (xy 151.13 120.65)
 		)
 		(stroke
@@ -5110,6 +5120,16 @@
 			(type default)
 		)
 		(uuid "e186d22b-aedf-40dd-a383-cf03d91d596a")
+	)
+	(wire
+		(pts
+			(xy 38.1 140.97) (xy 55.88 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d7663c-0877-4d69-b3ba-2f6c1b5be7ca")
 	)
 	(wire
 		(pts
@@ -5643,17 +5663,6 @@
 		)
 		(uuid "38aa5064-148e-4ead-b424-e27358fa4259")
 	)
-	(hierarchical_label "channel1-in2"
-		(shape input)
-		(at 62.23 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "43fe2e34-6144-41d0-a21d-5d2dc688ed7d")
-	)
 	(hierarchical_label "FAULT-Sub"
 		(shape input)
 		(at 55.88 128.27 180)
@@ -5709,17 +5718,6 @@
 		)
 		(uuid "7f9faad7-0518-4636-b766-dac6682126f8")
 	)
-	(hierarchical_label "sub-in2"
-		(shape input)
-		(at 55.88 140.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8b7d836e-cb39-453b-ad6f-ca3822b421f6")
-	)
 	(hierarchical_label "Right-1"
 		(shape output)
 		(at 231.14 60.96 0)
@@ -5741,17 +5739,6 @@
 			(justify left)
 		)
 		(uuid "9a1912f3-0113-4b0f-8cdf-5cd8a784e982")
-	)
-	(hierarchical_label "channel2-in2"
-		(shape input)
-		(at 46.99 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a12d8fdc-92e9-45cb-aef0-3e7d2abc043c")
 	)
 	(hierarchical_label "MUTE-Stereo"
 		(shape input)
@@ -6910,6 +6897,84 @@
 			(project "SoundSystem"
 				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/f16c3d29-2f5d-4c4d-ba4f-a1fa0f69088e"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "284c0bd0-019f-4d99-9e9c-ed452e8aac1d")
+		(property "Reference" "#PWR013"
+			(at 35.56 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98eee478-6f5c-4027-b093-0c1e7a34429f")
+		)
+		(instances
+			(project "SoundSystem"
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/f16c3d29-2f5d-4c4d-ba4f-a1fa0f69088e"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9806,6 +9871,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 29.21 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bac96cf-c4c2-4242-9d35-139885a5bf52")
+		(property "Reference" "#PWR05"
+			(at 29.21 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30f903ef-dd65-4fa4-8f56-e73b62706795")
+		)
+		(instances
+			(project "SoundSystem"
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/f16c3d29-2f5d-4c4d-ba4f-a1fa0f69088e"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 40.64 123.19 0)
 		(unit 1)
 		(body_style 1)
@@ -10748,6 +10891,84 @@
 			(project "SoundSystem"
 				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/f16c3d29-2f5d-4c4d-ba4f-a1fa0f69088e"
 					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d176d9e4-e2a6-42b3-9b3e-13b0c60f8a68")
+		(property "Reference" "#PWR02"
+			(at 38.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8310c46-add2-4cd7-9679-83f134e44f32")
+		)
+		(instances
+			(project "SoundSystem"
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/f16c3d29-2f5d-4c4d-ba4f-a1fa0f69088e"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
