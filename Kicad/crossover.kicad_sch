@@ -2936,7 +2936,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 111.76 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3103,7 +3103,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 68.58 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3661,7 +3661,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 68.58 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4080,7 +4080,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 111.76 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)

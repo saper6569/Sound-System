@@ -3348,7 +3348,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 129.54) (xy 85.09 129.54)
+			(xy 67.31 129.54) (xy 69.85 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3368,7 +3368,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 121.92) (xy 86.36 121.92)
+			(xy 67.31 121.92) (xy 71.12 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3428,7 +3428,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 127) (xy 85.09 127)
+			(xy 67.31 127) (xy 69.85 127)
 		)
 		(stroke
 			(width 0)
@@ -3628,7 +3628,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 156.21) (xy 62.23 156.21)
+			(xy 43.18 156.21) (xy 46.99 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3638,7 +3638,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 158.75) (xy 88.9 158.75)
+			(xy 77.47 158.75) (xy 73.66 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3658,7 +3658,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 116.84) (xy 86.36 116.84)
+			(xy 67.31 116.84) (xy 71.12 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3718,7 +3718,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 158.75) (xy 62.23 158.75)
+			(xy 43.18 158.75) (xy 46.99 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3958,7 +3958,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 114.3) (xy 86.36 114.3)
+			(xy 67.31 114.3) (xy 71.12 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3988,7 +3988,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 156.21) (xy 88.9 156.21)
+			(xy 77.47 156.21) (xy 73.66 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4278,7 +4278,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 119.38) (xy 86.36 119.38)
+			(xy 67.31 119.38) (xy 71.12 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4378,7 +4378,7 @@
 	)
 	(global_label "BCK"
 		(shape input)
-		(at 86.36 119.38 0)
+		(at 71.12 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4388,7 +4388,7 @@
 		)
 		(uuid "08a4d258-4756-4ee5-88a8-fe38319589af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.1552 119.38 0)
+			(at 77.9152 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4474,7 +4474,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 92.71 156.21 0)
+		(at 77.47 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4484,7 +4484,7 @@
 		)
 		(uuid "42470d73-59d6-4e79-8fad-4eb7cee24871")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.2028 156.21 0)
+			(at 83.9628 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4498,7 +4498,7 @@
 	)
 	(global_label "XSMT"
 		(shape input)
-		(at 86.36 121.92 0)
+		(at 71.12 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4508,7 +4508,7 @@
 		)
 		(uuid "65732283-7ea6-4451-bceb-9012ec5d143c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.1832 121.92 0)
+			(at 78.9432 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4522,7 +4522,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 92.71 158.75 0)
+		(at 77.47 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4532,7 +4532,7 @@
 		)
 		(uuid "709262fa-c4af-40f1-992c-6d329c972279")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.2633 158.75 0)
+			(at 84.0233 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4570,7 +4570,7 @@
 	)
 	(global_label "LRCK"
 		(shape input)
-		(at 86.36 114.3 0)
+		(at 71.12 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4580,7 +4580,7 @@
 		)
 		(uuid "81c32f7e-363c-481f-82d8-24151c9704bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.1833 114.3 0)
+			(at 78.9433 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4618,7 +4618,7 @@
 	)
 	(global_label "DIN"
 		(shape input)
-		(at 86.36 116.84 0)
+		(at 71.12 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4628,7 +4628,7 @@
 		)
 		(uuid "91e9ddf1-5e7e-4b50-9610-e452dc5ddfca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.5505 116.84 0)
+			(at 77.3105 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4677,7 +4677,7 @@
 	)
 	(hierarchical_label "Left Channel"
 		(shape output)
-		(at 85.09 127 0)
+		(at 69.85 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4732,7 +4732,7 @@
 	)
 	(hierarchical_label "Right Channel"
 		(shape output)
-		(at 85.09 129.54 0)
+		(at 69.85 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4754,7 +4754,7 @@
 	)
 	(hierarchical_label "In-"
 		(shape input)
-		(at 58.42 158.75 180)
+		(at 43.18 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4765,7 +4765,7 @@
 	)
 	(hierarchical_label "In+"
 		(shape input)
-		(at 58.42 156.21 180)
+		(at 43.18 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8461,7 +8461,7 @@
 		)
 	)
 	(sheet
-		(at 63.5 111.76)
+		(at 48.26 111.76)
 		(size 19.05 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8477,7 +8477,7 @@
 		)
 		(uuid "8030a35b-e123-46f6-b13a-001d29265ac2")
 		(property "Sheetname" "DAC"
-			(at 63.5 111.0484 0)
+			(at 48.26 111.0484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8488,7 +8488,7 @@
 			)
 		)
 		(property "Sheetfile" "dac.kicad_sch"
-			(at 63.5 132.6646 0)
+			(at 48.26 132.6646 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8500,7 +8500,7 @@
 			)
 		)
 		(pin "Right Channel" output
-			(at 82.55 129.54 0)
+			(at 67.31 129.54 0)
 			(uuid "fed7412a-90b6-4239-ab03-d090991c5094")
 			(effects
 				(font
@@ -8510,7 +8510,7 @@
 			)
 		)
 		(pin "Left Channel" output
-			(at 82.55 127 0)
+			(at 67.31 127 0)
 			(uuid "dc0428df-3986-4c89-9eb8-d5322d8c816d")
 			(effects
 				(font
@@ -8520,7 +8520,7 @@
 			)
 		)
 		(pin "LRCK" input
-			(at 82.55 114.3 0)
+			(at 67.31 114.3 0)
 			(uuid "968cd296-01eb-448e-a02f-fc943e34a014")
 			(effects
 				(font
@@ -8530,7 +8530,7 @@
 			)
 		)
 		(pin "BCK" input
-			(at 82.55 119.38 0)
+			(at 67.31 119.38 0)
 			(uuid "7427a0ae-a503-4e1d-96d0-1c7b26a88c25")
 			(effects
 				(font
@@ -8540,7 +8540,7 @@
 			)
 		)
 		(pin "DIN" input
-			(at 82.55 116.84 0)
+			(at 67.31 116.84 0)
 			(uuid "50e20e33-4cbd-4fa5-ba56-cf558cab9ef0")
 			(effects
 				(font
@@ -8550,7 +8550,7 @@
 			)
 		)
 		(pin "XSMT" input
-			(at 82.55 121.92 0)
+			(at 67.31 121.92 0)
 			(uuid "2660dfd3-8015-4fb8-acce-28b170b4b39c")
 			(effects
 				(font
@@ -8568,7 +8568,7 @@
 		)
 	)
 	(sheet
-		(at 62.23 152.654)
+		(at 46.99 152.654)
 		(size 26.67 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8584,7 +8584,7 @@
 		)
 		(uuid "d1a1afbf-fd3b-4623-ae7d-7479e92669f0")
 		(property "Sheetname" "Power measurement"
-			(at 62.23 151.9424 0)
+			(at 46.99 151.9424 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8595,7 +8595,7 @@
 			)
 		)
 		(property "Sheetfile" "Power measurement.kicad_sch"
-			(at 62.23 162.1286 0)
+			(at 46.99 162.1286 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8607,7 +8607,7 @@
 			)
 		)
 		(pin "SDA" input
-			(at 88.9 158.75 0)
+			(at 73.66 158.75 0)
 			(uuid "6a8f0e3c-b2ba-4ffb-85ba-12ca9359f78b")
 			(effects
 				(font
@@ -8617,7 +8617,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 88.9 156.21 0)
+			(at 73.66 156.21 0)
 			(uuid "3472d1ca-6615-4a18-9662-dcfadcb06059")
 			(effects
 				(font
@@ -8627,7 +8627,7 @@
 			)
 		)
 		(pin "In+" input
-			(at 62.23 156.21 180)
+			(at 46.99 156.21 180)
 			(uuid "08839ee1-e592-4ceb-910a-a46a257c21c2")
 			(effects
 				(font
@@ -8637,7 +8637,7 @@
 			)
 		)
 		(pin "In-" input
-			(at 62.23 158.75 180)
+			(at 46.99 158.75 180)
 			(uuid "fb558664-f206-496f-b4c3-bb1b70d4c257")
 			(effects
 				(font
