@@ -1262,7 +1262,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 188.468 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -1424,7 +1424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 143.2052 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1585,7 +1585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W4.0mm_P7.50mm_MKT"
 			(at 169.8752 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1745,7 +1745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:IND_SRP1265A-100M"
+		(property "Footprint" ""
 			(at 115.57 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2066,7 +2066,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 188.468 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -2148,7 +2148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W4.0mm_P7.50mm_MKT"
 			(at 169.8752 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2230,7 +2230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 125.4252 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2312,7 +2312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 125.4252 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2474,7 +2474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:IND_SRP1265A-100M"
+		(property "Footprint" ""
 			(at 115.57 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2556,7 +2556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 143.2052 96.52 0)
 			(hide yes)
 			(show_name no)

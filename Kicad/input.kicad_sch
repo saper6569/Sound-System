@@ -277,6 +277,187 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Audio:AudioJack4"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2222,12 +2403,6 @@
 		)
 	)
 	(junction
-		(at 110.49 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bd823a3-a88b-476d-8a75-5d4856157ea4")
-	)
-	(junction
 		(at 134.62 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2246,10 +2421,22 @@
 		(uuid "45082760-1e08-49d6-be5b-e206db96974f")
 	)
 	(junction
+		(at 110.49 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86b13386-847a-4ad4-a6b1-5807309d7691")
+	)
+	(junction
 		(at 64.77 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "936eb3e3-7b98-4b86-928a-be60456d3839")
+	)
+	(junction
+		(at 110.49 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9457f278-e61a-4c37-9d4e-ed99ab5a6df9")
 	)
 	(junction
 		(at 201.93 83.82)
@@ -2264,8 +2451,24 @@
 		(uuid "edb12454-8e07-4226-8230-884e6a43fa8d")
 	)
 	(no_connect
+		(at 107.95 88.9)
+		(uuid "1269507f-1dce-429a-9f8c-c8d1ce3baa66")
+	)
+	(no_connect
+		(at 107.95 93.98)
+		(uuid "3670af4d-e5a3-4a39-bf75-b9f553a9ec61")
+	)
+	(no_connect
 		(at 43.18 81.28)
 		(uuid "55d1592c-7384-4f0a-a3a7-ddc662e03ec9")
+	)
+	(no_connect
+		(at 107.95 86.36)
+		(uuid "7d5ec7df-923a-4634-b174-1422fbe94760")
+	)
+	(no_connect
+		(at 107.95 91.44)
+		(uuid "85656a52-0240-478c-aa84-09562d917635")
 	)
 	(wire
 		(pts
@@ -2359,7 +2562,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 96.52) (xy 110.49 97.79)
+			(xy 110.49 96.52) (xy 110.49 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2396,6 +2599,16 @@
 			(type default)
 		)
 		(uuid "26f680f2-8c17-4470-afee-15f6fe8e181b")
+	)
+	(wire
+		(pts
+			(xy 110.49 92.71) (xy 110.49 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c003ea5-9969-486d-ab56-af52d7205b8b")
 	)
 	(wire
 		(pts
@@ -2619,6 +2832,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 102.87) (xy 110.49 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1cb4cd4-7afc-458a-8672-467d99c5a4a5")
+	)
+	(wire
+		(pts
 			(xy 201.93 99.06) (xy 214.63 99.06)
 		)
 		(stroke
@@ -2649,7 +2872,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 97.79) (xy 111.76 97.79)
+			(xy 110.49 102.87) (xy 113.03 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2696,16 +2919,6 @@
 			(type default)
 		)
 		(uuid "e262b38d-85fd-4116-99ad-45e3e5092909")
-	)
-	(wire
-		(pts
-			(xy 110.49 99.06) (xy 110.49 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7600686-9fce-4d2a-8c7a-fcbd6abacf57")
 	)
 	(wire
 		(pts
@@ -2790,7 +3003,7 @@
 	)
 	(hierarchical_label "select"
 		(shape input)
-		(at 111.76 97.79 0)
+		(at 113.03 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3020,7 +3233,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-23-THIN16_DYY_TEX"
+		(property "Footprint" ""
 			(at 67.31 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3225,7 +3438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L16.5mm_W9.0mm_P15.00mm_MKT"
 			(at 167.64 80.3148 0)
 			(hide yes)
 			(show_name no)
@@ -3508,6 +3721,88 @@
 			(project "SoundSystem"
 				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/865d65b0-54ca-430c-80f9-bc603c1f6d23"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 113.03 87.63 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "64d53e0c-c6df-47da-9a94-64738a6c7b90")
+		(property "Reference" "J4"
+			(at 110.49 85.852 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 109.982 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 113.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "788727e6-8c51-465f-bd69-7cfd9490d757")
+		)
+		(pin "1"
+			(uuid "d13d2d0e-b27a-4971-a0af-48b44a61917d")
+		)
+		(instances
+			(project "SoundSystem"
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/865d65b0-54ca-430c-80f9-bc603c1f6d23"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4113,7 +4408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L16.5mm_W9.0mm_P15.00mm_MKT"
 			(at 167.64 87.9348 0)
 			(hide yes)
 			(show_name no)
@@ -4599,6 +4894,83 @@
 			(project "SoundSystem"
 				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/865d65b0-54ca-430c-80f9-bc603c1f6d23"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f88b322d-e4f7-4e51-90e9-65bc91e22a33")
+		(property "Reference" "#PWR064"
+			(at 113.03 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec58b662-32db-45d7-a581-de47dfb3ba40")
+		)
+		(instances
+			(project "SoundSystem"
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/865d65b0-54ca-430c-80f9-bc603c1f6d23"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)

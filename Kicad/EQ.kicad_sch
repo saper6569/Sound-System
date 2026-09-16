@@ -2524,7 +2524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W4.0mm_P7.50mm_MKT"
 			(at 245.11 107.6452 0)
 			(hide yes)
 			(show_name no)
@@ -2683,7 +2683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L11.5mm_W5.6mm_P10.00mm_MKT"
 			(at 81.28 98.7552 0)
 			(hide yes)
 			(show_name no)
@@ -3101,7 +3101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Rect_L11.5mm_W5.6mm_P10.00mm_MKT"
 			(at 208.28 105.7148 0)
 			(hide yes)
 			(show_name no)
@@ -3359,7 +3359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" ""
 			(at 234.95 104.902 90)
 			(hide yes)
 			(show_name no)
@@ -3608,7 +3608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Rect_L11.5mm_W5.6mm_P10.00mm_MKT"
 			(at 199.39 79.7052 0)
 			(hide yes)
 			(show_name no)
@@ -3687,7 +3687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 179.07 114.808 90)
 			(hide yes)
 			(show_name no)
@@ -3936,7 +3936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W6.4mm_P7.50mm_MKT"
 			(at 72.39 58.1152 0)
 			(hide yes)
 			(show_name no)
@@ -4015,7 +4015,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 90.17 116.078 90)
 			(hide yes)
 			(show_name no)
@@ -4094,7 +4094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Rect_L11.5mm_W5.6mm_P10.00mm_MKT"
 			(at 81.28 106.9848 0)
 			(hide yes)
 			(show_name no)
@@ -4696,7 +4696,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 52.07 116.078 90)
 			(hide yes)
 			(show_name no)
@@ -4777,7 +4777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" ""
 			(at 107.95 106.172 90)
 			(hide yes)
 			(show_name no)
@@ -4857,7 +4857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Rect_L11.5mm_W5.6mm_P10.00mm_MKT"
 			(at 72.39 80.9752 0)
 			(hide yes)
 			(show_name no)
@@ -5016,7 +5016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L11.5mm_W5.6mm_P10.00mm_MKT"
 			(at 208.28 97.4852 0)
 			(hide yes)
 			(show_name no)
@@ -5095,7 +5095,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 217.17 114.808 90)
 			(hide yes)
 			(show_name no)
@@ -5175,7 +5175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W6.4mm_P7.50mm_MKT"
 			(at 199.39 56.8452 0)
 			(hide yes)
 			(show_name no)
@@ -5346,7 +5346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W4.0mm_P7.50mm_MKT"
 			(at 118.11 108.9152 0)
 			(hide yes)
 			(show_name no)

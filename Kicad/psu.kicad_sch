@@ -4868,7 +4868,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x4.5"
 			(at 202.2348 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4950,7 +4950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-27_P12.70mm_Horizontal"
 			(at 86.995 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5032,7 +5032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 45.4152 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5536,7 +5536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 108.9152 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5618,7 +5618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 214.63 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5722,7 +5722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 214.63 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5824,7 +5824,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:4.7uH_inductor"
+		(property "Footprint" ""
 			(at 99.06 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -5906,7 +5906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x4.5"
 			(at 58.1152 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6151,7 +6151,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x4.5"
 			(at 202.2348 53.34 0)
 			(hide yes)
 			(show_name no)

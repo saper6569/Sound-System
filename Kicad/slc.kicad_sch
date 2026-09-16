@@ -946,17 +946,6 @@
 		)
 		(uuid "fe669884-bc48-43a5-8d88-ee0b1db47d0e")
 	)
-	(hierarchical_label "Left-1"
-		(shape output)
-		(at 0.3048 0.8096 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1b1342d2-1de7-4bae-bea3-ea18f45898d2")
-	)
 	(hierarchical_label "BST_M"
 		(shape input)
 		(at 86.36 73.66 180)
@@ -1055,7 +1044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:IND_SRP1265A-100M"
+		(property "Footprint" ""
 			(at 119.38 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1141,7 +1130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x4.5"
 			(at 129.2352 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1227,7 +1216,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 169.418 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -1399,7 +1388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x4.5"
 			(at 129.2352 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1483,7 +1472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:IND_SRP1265A-100M"
+		(property "Footprint" ""
 			(at 119.38 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -1569,7 +1558,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 169.418 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -1655,7 +1644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W4.0mm_P7.50mm_MKT"
 			(at 150.8252 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2075,7 +2064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W4.0mm_P7.50mm_MKT"
 			(at 150.8252 88.9 0)
 			(hide yes)
 			(show_name no)

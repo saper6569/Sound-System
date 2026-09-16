@@ -4886,7 +4886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 44.1452 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5290,7 +5290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 148.59 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5446,7 +5446,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 228.6 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5603,7 +5603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x4.5"
 			(at 56.8452 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5828,7 +5828,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "270"
 			(at 140.97 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6296,7 +6296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 140.97 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6843,7 +6843,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 265.3999 85.09 0)
+		(at 265.43 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6853,7 +6853,7 @@
 		(dnp no)
 		(uuid "a2329933-e554-4077-aac8-2a82c9a41f7f")
 		(property "Reference" "#PWR093"
-			(at 265.3999 88.9 0)
+			(at 265.43 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6864,7 +6864,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 261.62 83.82 0)
+			(at 261.6501 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6874,7 +6874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.3999 85.09 0)
+			(at 265.43 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6885,7 +6885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.3999 85.09 0)
+			(at 265.43 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6896,7 +6896,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 265.3999 85.09 0)
+			(at 265.43 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6952,7 +6952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x4.5"
 			(at 149.5552 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7425,7 +7425,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "1uF"
 			(at 128.27 61.3409 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7436,7 +7436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x4.5"
 			(at 125.4252 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7753,7 +7753,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:4.7uH_inductor"
+		(property "Footprint" ""
 			(at 97.79 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7913,7 +7913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 223.012 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -8062,7 +8062,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5820"
+		(property "Value" "1N5821"
 			(at 92.71 63.1824 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8073,7 +8073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-27_P12.70mm_Horizontal"
 			(at 85.725 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8154,7 +8154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 142.24 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8309,7 +8309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" ""
 			(at 107.6452 66.04 0)
 			(hide yes)
 			(show_name no)
