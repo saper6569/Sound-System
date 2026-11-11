@@ -5,7 +5,531 @@
 	(uuid "c96d5e3c-c44c-49d5-8ce8-20ad053b2c1c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Operational:OPA1656ID"
+		(symbol "SoundSystem:+12V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SoundSystem:-12V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "-12V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-12V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "-12V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-12V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SoundSystem:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SoundSystem:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SoundSystem:OPA1656ID"
 			(pin_names
 				(offset 0.127)
 			)
@@ -277,162 +801,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
+		(symbol "SoundSystem:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -572,375 +941,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:-12V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "-12V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-12V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "-12V_0_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "-12V_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "2 way crossover"
 		(exclude_from_sim no)
@@ -983,12 +983,6 @@
 		(uuid "28a54eb8-5f4a-48fd-a178-688042dcb61a")
 	)
 	(junction
-		(at 193.04 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "299cfea0-e960-4310-8052-5a2f2db8c618")
-	)
-	(junction
 		(at 90.17 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1001,16 +995,16 @@
 		(uuid "4191f3e7-1e97-4c1a-bc88-6357f686e457")
 	)
 	(junction
+		(at 193.04 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "437a8683-c5f4-4002-9715-a5afe8e19284")
+	)
+	(junction
 		(at 66.04 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44e74925-46a8-42d5-ad06-89bc8428b3b1")
-	)
-	(junction
-		(at 208.28 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50916b95-5a97-4e46-b37a-b38edaaf79b2")
 	)
 	(junction
 		(at 55.88 78.74)
@@ -1055,6 +1049,24 @@
 		(uuid "b4579b60-5a41-409a-8f9d-9d64773a0548")
 	)
 	(junction
+		(at 193.04 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c62b30d3-3c55-4ac1-bcaa-81d076781901")
+	)
+	(junction
+		(at 208.28 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5923940-9fdb-466f-a143-6e4dc2b03d80")
+	)
+	(junction
+		(at 208.28 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef8942bc-1b7c-41c3-8d3c-db9b53475726")
+	)
+	(junction
 		(at 133.35 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1075,16 +1087,6 @@
 			(type default)
 		)
 		(uuid "01a50617-bf06-4a9c-a991-5112e8e03603")
-	)
-	(wire
-		(pts
-			(xy 193.04 30.48) (xy 193.04 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03b64e9c-04cd-4e04-a5db-13454b031136")
 	)
 	(wire
 		(pts
@@ -1158,7 +1160,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 39.37) (xy 193.04 44.45)
+			(xy 193.04 58.42) (xy 193.04 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1378,6 +1380,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 30.48) (xy 208.28 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c1e7a0b-bce5-42fa-b335-3970cc0e79b3")
+	)
+	(wire
+		(pts
 			(xy 46.99 40.64) (xy 46.99 78.74)
 		)
 		(stroke
@@ -1488,16 +1500,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 30.48) (xy 208.28 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6185b01-75e8-4677-8e25-1517fc127c00")
-	)
-	(wire
-		(pts
 			(xy 66.04 40.64) (xy 66.04 45.72)
 		)
 		(stroke
@@ -1598,7 +1600,17 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 39.37) (xy 208.28 44.45)
+			(xy 193.04 30.48) (xy 193.04 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dabfbc78-3835-40dc-bb48-c0340c283722")
+	)
+	(wire
+		(pts
+			(xy 208.28 58.42) (xy 208.28 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1680,7 +1692,7 @@
 		(uuid "c777757b-54f3-46d0-958f-cd2320203a78")
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SoundSystem:R")
 		(at 93.98 78.74 90)
 		(unit 1)
 		(body_style 1)
@@ -1711,7 +1723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "SoundSystem:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 93.98 80.518 90)
 			(hide yes)
 			(show_name no)
@@ -1744,6 +1756,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 93.98 80.518 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F3002T5E"
+			(at 93.98 80.518 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17621"
+			(at 93.98 80.518 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f2a32706-51e1-429c-af26-5862a1cf8976")
 		)
@@ -1764,7 +1809,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1656ID")
+		(lib_id "SoundSystem:OPA1656ID")
 		(at 78.74 81.28 0)
 		(unit 1)
 		(body_style 1)
@@ -1795,7 +1840,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "SoundSystem:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 78.74 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1818,6 +1863,39 @@
 			)
 		)
 		(property "Description" "Dual Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
+			(at 78.74 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 78.74 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "OPA1656IDR"
+			(at 78.74 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1849431"
 			(at 78.74 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1866,8 +1944,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 208.28 44.45 180)
+		(lib_id "SoundSystem:C")
+		(at 208.28 54.61 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1876,30 +1955,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0f4da044-5697-4034-bc1f-961839eae1f4")
-		(property "Reference" "#PWR039"
-			(at 208.28 40.64 0)
-			(hide yes)
+		(uuid "0e54ca80-7025-41a2-92d7-a2fc230325f3")
+		(property "Reference" "C83"
+			(at 212.09 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "+12V"
-			(at 208.28 49.53 0)
+		(property "Value" "1uF"
+			(at 212.09 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 208.28 44.45 0)
+		(property "Footprint" "SoundSystem:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 207.3148 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1910,7 +1990,125 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 44.45 0)
+			(at 208.28 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 207.3148 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0805KKX7R9BB105"
+			(at 207.3148 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C91185"
+			(at 207.3148 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffc4acc7-461a-4aa8-870b-3921fad2ae52")
+		)
+		(pin "2"
+			(uuid "5174b39a-2a78-448b-994c-e31dcad2f0d2")
+		)
+		(instances
+			(project "SoundSystem"
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/0d7e0d20-5f67-4e7f-8dc7-5b2548657d0a"
+					(reference "C83")
+					(unit 1)
+				)
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/f64e5c10-66fb-41aa-a969-8f024418cd80"
+					(reference "C85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SoundSystem:+12V")
+		(at 208.28 63.5 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f4da044-5697-4034-bc1f-961839eae1f4")
+		(property "Reference" "#PWR039"
+			(at 208.28 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 208.28 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1921,7 +2119,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 208.28 44.45 0)
+			(at 208.28 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1948,7 +2146,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SoundSystem:C")
 		(at 109.22 87.63 0)
 		(mirror x)
 		(unit 1)
@@ -1970,7 +2168,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47nF"
+		(property "Value" "47nF film"
 			(at 105.41 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1981,7 +2179,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W6.4mm_P7.50mm_MKT"
+		(property "Footprint" "SoundSystem:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 110.1852 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2014,6 +2212,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Faratronic"
+			(at 110.1852 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C242A473J20A201"
+			(at 110.1852 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C328859"
+			(at 110.1852 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1f3bb221-03f9-426d-b5e5-b2c7a3610854")
 		)
@@ -2034,7 +2265,88 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SoundSystem:GND")
+		(at 208.28 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18546248-4f25-4411-b871-9a07f7ca4744")
+		(property "Reference" "#PWR0124"
+			(at 208.28 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 41.656 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c7cce72-00d4-42ae-a2b9-454a6a8dbefb")
+		)
+		(instances
+			(project "SoundSystem"
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/0d7e0d20-5f67-4e7f-8dc7-5b2548657d0a"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/f64e5c10-66fb-41aa-a969-8f024418cd80"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SoundSystem:C")
 		(at 105.41 40.64 90)
 		(unit 1)
 		(body_style 1)
@@ -2055,7 +2367,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF film"
 			(at 105.41 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2065,7 +2377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L11.5mm_W5.0mm_P10.00mm_MKT"
+		(property "Footprint" "SoundSystem:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 109.22 39.6748 0)
 			(hide yes)
 			(show_name no)
@@ -2098,6 +2410,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "WIMA"
+			(at 109.22 39.6748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MKS2D031001A00JSSD"
+			(at 109.22 39.6748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C415551"
+			(at 109.22 39.6748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0c6a725b-9afb-4bc5-9db3-55c9f682b229")
 		)
@@ -2118,7 +2463,208 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1656ID")
+		(lib_id "SoundSystem:C")
+		(at 208.28 34.29 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c8b2834-092d-4a21-a42e-1823bdcefe3c")
+		(property "Reference" "C127"
+			(at 212.09 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 212.09 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SoundSystem:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 207.3148 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 207.3148 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0805KKX7R9BB105"
+			(at 207.3148 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C91185"
+			(at 207.3148 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "653297b9-d918-4b59-a167-ba976ee71b38")
+		)
+		(pin "2"
+			(uuid "382eb4df-78c6-4e46-8e46-16ec87216712")
+		)
+		(instances
+			(project "SoundSystem"
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/0d7e0d20-5f67-4e7f-8dc7-5b2548657d0a"
+					(reference "C127")
+					(unit 1)
+				)
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/f64e5c10-66fb-41aa-a969-8f024418cd80"
+					(reference "C129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SoundSystem:GND")
+		(at 208.28 50.8 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3494a4a5-5d01-4b1c-8457-172865948fc5")
+		(property "Reference" "#PWR0120"
+			(at 208.28 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 47.244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a509f830-9e65-4b25-ab15-d27f0596115d")
+		)
+		(instances
+			(project "SoundSystem"
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/0d7e0d20-5f67-4e7f-8dc7-5b2548657d0a"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/f64e5c10-66fb-41aa-a969-8f024418cd80"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SoundSystem:OPA1656ID")
 		(at 200.66 27.94 270)
 		(mirror x)
 		(unit 3)
@@ -2140,7 +2686,7 @@
 			)
 		)
 		(property "Value" "OPA1656ID"
-			(at 200.406 25.146 90)
+			(at 200.914 25.146 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2149,7 +2695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "SoundSystem:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 200.66 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -2172,6 +2718,39 @@
 			)
 		)
 		(property "Description" "Dual Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
+			(at 200.66 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 200.66 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "OPA1656IDR"
+			(at 200.66 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1849431"
 			(at 200.66 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -2220,7 +2799,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SoundSystem:C")
 		(at 74.93 67.31 90)
 		(unit 1)
 		(body_style 1)
@@ -2241,7 +2820,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF film"
 			(at 74.93 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2251,7 +2830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L11.5mm_W5.0mm_P10.00mm_MKT"
+		(property "Footprint" "SoundSystem:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 78.74 66.3448 0)
 			(hide yes)
 			(show_name no)
@@ -2284,6 +2863,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "WIMA"
+			(at 78.74 66.3448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MKS2D031001A00JSSD"
+			(at 78.74 66.3448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C415551"
+			(at 78.74 66.3448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "39fcdd56-f9ec-4a11-a916-eb6367118278")
 		)
@@ -2304,7 +2916,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1656ID")
+		(lib_id "SoundSystem:OPA1656ID")
 		(at 121.92 43.18 0)
 		(unit 2)
 		(body_style 1)
@@ -2335,7 +2947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "SoundSystem:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 121.92 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2358,6 +2970,39 @@
 			)
 		)
 		(property "Description" "Dual Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
+			(at 121.92 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 121.92 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "OPA1656IDR"
+			(at 121.92 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1849431"
 			(at 121.92 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2406,7 +3051,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SoundSystem:C")
 		(at 62.23 40.64 90)
 		(unit 1)
 		(body_style 1)
@@ -2427,7 +3072,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF film"
 			(at 62.23 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2437,7 +3082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L11.5mm_W5.0mm_P10.00mm_MKT"
+		(property "Footprint" "SoundSystem:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 66.04 39.6748 0)
 			(hide yes)
 			(show_name no)
@@ -2470,6 +3115,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "WIMA"
+			(at 66.04 39.6748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MKS2D031001A00JSSD"
+			(at 66.04 39.6748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C415551"
+			(at 66.04 39.6748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0b4f1f24-37e3-41d5-9e11-fde4fecdde77")
 		)
@@ -2490,7 +3168,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SoundSystem:R")
 		(at 143.51 43.18 90)
 		(unit 1)
 		(body_style 1)
@@ -2521,7 +3199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "SoundSystem:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 143.51 44.958 90)
 			(hide yes)
 			(show_name no)
@@ -2554,6 +3232,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 143.51 44.958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F1001T5E"
+			(at 143.51 44.958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17513"
+			(at 143.51 44.958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "224628a3-4b5f-4b38-8562-fe204ebf74a9")
 		)
@@ -2574,7 +3285,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SoundSystem:C")
 		(at 50.8 40.64 90)
 		(unit 1)
 		(body_style 1)
@@ -2595,7 +3306,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF film"
 			(at 50.8 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2605,7 +3316,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L11.5mm_W5.0mm_P10.00mm_MKT"
+		(property "Footprint" "SoundSystem:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 54.61 39.6748 0)
 			(hide yes)
 			(show_name no)
@@ -2638,6 +3349,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "WIMA"
+			(at 54.61 39.6748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MKS2D031001A00JSSD"
+			(at 54.61 39.6748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C415551"
+			(at 54.61 39.6748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0febf050-e35c-4c81-a847-ebd25e8c8cf0")
 		)
@@ -2658,7 +3402,126 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SoundSystem:C")
+		(at 193.04 26.67 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70ce6259-e936-4bd9-a305-d381e15b3087")
+		(property "Reference" "C126"
+			(at 189.23 25.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 189.23 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SoundSystem:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 194.0052 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 193.04 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 194.0052 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0805KKX7R9BB105"
+			(at 194.0052 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C91185"
+			(at 194.0052 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c8fc043-cdff-4865-a17c-32dee9603c98")
+		)
+		(pin "2"
+			(uuid "038b9993-15e2-48b0-90bf-2592ee8d3ad8")
+		)
+		(instances
+			(project "SoundSystem"
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/0d7e0d20-5f67-4e7f-8dc7-5b2548657d0a"
+					(reference "C126")
+					(unit 1)
+				)
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/f64e5c10-66fb-41aa-a969-8f024418cd80"
+					(reference "C128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SoundSystem:C")
 		(at 118.11 67.31 90)
 		(unit 1)
 		(body_style 1)
@@ -2679,7 +3542,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF film"
 			(at 118.11 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2689,7 +3552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L11.5mm_W5.0mm_P10.00mm_MKT"
+		(property "Footprint" "SoundSystem:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 121.92 66.3448 0)
 			(hide yes)
 			(show_name no)
@@ -2722,6 +3585,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "WIMA"
+			(at 121.92 66.3448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MKS2D031001A00JSSD"
+			(at 121.92 66.3448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C415551"
+			(at 121.92 66.3448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c461e0a3-1f76-45e8-8238-ca4c37c4d58d")
 		)
@@ -2742,7 +3638,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SoundSystem:R")
 		(at 109.22 49.53 0)
 		(mirror y)
 		(unit 1)
@@ -2775,7 +3671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "SoundSystem:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 110.998 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -2808,6 +3704,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 110.998 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F2202T5E"
+			(at 110.998 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17560"
+			(at 110.998 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ef8c339d-284f-45a9-bff2-260bea1d7997")
 		)
@@ -2828,7 +3757,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SoundSystem:R")
 		(at 66.04 49.53 0)
 		(mirror y)
 		(unit 1)
@@ -2861,7 +3790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "SoundSystem:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 67.818 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -2894,6 +3823,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 67.818 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F2202T5E"
+			(at 67.818 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17560"
+			(at 67.818 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d22fbd73-3c2d-4ef4-a104-d540a7cd0c88")
 		)
@@ -2914,7 +3876,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "SoundSystem:GND")
 		(at 109.22 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -2997,7 +3959,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SoundSystem:R")
 		(at 105.41 78.74 90)
 		(unit 1)
 		(body_style 1)
@@ -3028,7 +3990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "SoundSystem:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 105.41 80.518 90)
 			(hide yes)
 			(show_name no)
@@ -3061,6 +4023,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 105.41 80.518 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F1802T5E"
+			(at 105.41 80.518 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17506"
+			(at 105.41 80.518 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b0f7deec-3b15-41d2-9031-0c72d8daf2ec")
 		)
@@ -3081,7 +4076,89 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "SoundSystem:-12V")
+		(at 193.04 35.56 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8921608e-58d8-4878-94da-b25d0ac36964")
+		(property "Reference" "#PWR0127"
+			(at 193.04 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-12V"
+			(at 193.04 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 193.04 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ed4f8a5-1a6d-4676-8739-dd245227a8d0")
+		)
+		(instances
+			(project "SoundSystem"
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/0d7e0d20-5f67-4e7f-8dc7-5b2548657d0a"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/f64e5c10-66fb-41aa-a969-8f024418cd80"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SoundSystem:GND")
 		(at 66.04 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -3164,7 +4241,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1656ID")
+		(lib_id "SoundSystem:OPA1656ID")
 		(at 121.92 81.28 0)
 		(unit 2)
 		(body_style 1)
@@ -3195,7 +4272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "SoundSystem:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 121.92 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3218,6 +4295,39 @@
 			)
 		)
 		(property "Description" "Dual Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
+			(at 121.92 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 121.92 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "OPA1656IDR"
+			(at 121.92 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1849431"
 			(at 121.92 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3266,8 +4376,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1656ID")
-		(at 200.66 41.91 270)
+		(lib_id "SoundSystem:OPA1656ID")
+		(at 200.66 60.96 270)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3277,7 +4387,7 @@
 		(dnp no)
 		(uuid "af939e0a-8184-4cc4-8e78-e80a8fe445eb")
 		(property "Reference" "U7"
-			(at 196.088 33.528 90)
+			(at 194.818 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3288,7 +4398,7 @@
 			)
 		)
 		(property "Value" "OPA1656ID"
-			(at 196.088 36.068 90)
+			(at 194.818 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3298,8 +4408,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 200.66 41.91 0)
+		(property "Footprint" "SoundSystem:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 200.66 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3310,7 +4420,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1656.pdf"
-			(at 200.66 41.91 0)
+			(at 200.66 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3321,7 +4431,40 @@
 			)
 		)
 		(property "Description" "Dual Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
-			(at 200.66 41.91 0)
+			(at 200.66 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 200.66 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "OPA1656IDR"
+			(at 200.66 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1849431"
+			(at 200.66 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3369,7 +4512,90 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SoundSystem:+12V")
+		(at 208.28 25.4 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4aad0e0-1928-4455-bb29-78af9e8b1a19")
+		(property "Reference" "#PWR0128"
+			(at 208.28 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 208.28 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 208.28 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f18ef498-5925-4950-8659-f59337ce913b")
+		)
+		(instances
+			(project "SoundSystem"
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/0d7e0d20-5f67-4e7f-8dc7-5b2548657d0a"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/f64e5c10-66fb-41aa-a969-8f024418cd80"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SoundSystem:R")
 		(at 50.8 78.74 90)
 		(unit 1)
 		(body_style 1)
@@ -3400,7 +4626,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "SoundSystem:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 50.8 80.518 90)
 			(hide yes)
 			(show_name no)
@@ -3433,6 +4659,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 50.8 80.518 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F3002T5E"
+			(at 50.8 80.518 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17621"
+			(at 50.8 80.518 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9003c13b-4944-41a6-afe5-57dd8b7e99aa")
 		)
@@ -3453,7 +4712,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SoundSystem:C")
 		(at 93.98 40.64 90)
 		(unit 1)
 		(body_style 1)
@@ -3474,7 +4733,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF film"
 			(at 93.98 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3484,7 +4743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L11.5mm_W5.0mm_P10.00mm_MKT"
+		(property "Footprint" "SoundSystem:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 97.79 39.6748 0)
 			(hide yes)
 			(show_name no)
@@ -3517,6 +4776,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "WIMA"
+			(at 97.79 39.6748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MKS2D031001A00JSSD"
+			(at 97.79 39.6748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C415551"
+			(at 97.79 39.6748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1422ce14-cdcc-4a71-9197-c4526ed2729c")
 		)
@@ -3537,7 +4829,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1656ID")
+		(lib_id "SoundSystem:OPA1656ID")
 		(at 78.74 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -3568,7 +4860,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "SoundSystem:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 78.74 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -3591,6 +4883,39 @@
 			)
 		)
 		(property "Description" "Dual Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
+			(at 78.74 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 78.74 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "OPA1656IDR"
+			(at 78.74 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1849431"
 			(at 78.74 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -3639,7 +4964,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "SoundSystem:GND")
 		(at 66.04 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -3722,7 +5047,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SoundSystem:R")
 		(at 62.23 78.74 90)
 		(unit 1)
 		(body_style 1)
@@ -3753,7 +5078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "SoundSystem:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 62.23 80.518 90)
 			(hide yes)
 			(show_name no)
@@ -3786,6 +5111,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 62.23 80.518 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F1802T5E"
+			(at 62.23 80.518 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17506"
+			(at 62.23 80.518 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c141c5ff-f996-4fdd-9112-0675e193fd69")
 		)
@@ -3806,7 +5164,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SoundSystem:R")
 		(at 118.11 29.21 90)
 		(unit 1)
 		(body_style 1)
@@ -3837,7 +5195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "SoundSystem:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 118.11 30.988 90)
 			(hide yes)
 			(show_name no)
@@ -3870,6 +5228,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 118.11 30.988 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F1102T5E"
+			(at 118.11 30.988 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17429"
+			(at 118.11 30.988 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4043b024-9ffa-480f-bcef-198ea3f26104")
 		)
@@ -3890,8 +5281,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-12V")
-		(at 193.04 44.45 180)
+		(lib_id "SoundSystem:-12V")
+		(at 193.04 53.34 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3902,7 +5294,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5914c66-f6f9-4458-bd0a-77c5239a92d9")
 		(property "Reference" "#PWR021"
-			(at 193.04 40.64 0)
+			(at 193.04 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3913,7 +5305,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 193.04 49.53 0)
+			(at 193.04 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3923,7 +5315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 44.45 0)
+			(at 193.04 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3934,7 +5326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 44.45 0)
+			(at 193.04 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3945,7 +5337,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 193.04 44.45 0)
+			(at 193.04 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3972,7 +5364,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SoundSystem:C")
 		(at 66.04 87.63 0)
 		(mirror x)
 		(unit 1)
@@ -3994,7 +5386,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47nF"
+		(property "Value" "47nF film"
 			(at 62.23 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4005,7 +5397,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W6.4mm_P7.50mm_MKT"
+		(property "Footprint" "SoundSystem:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 67.0052 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4038,6 +5430,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Faratronic"
+			(at 67.0052 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C242A473J20A201"
+			(at 67.0052 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C328859"
+			(at 67.0052 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7b777ed7-c445-4e72-a327-224918dd2739")
 		)
@@ -4058,7 +5483,88 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "SoundSystem:GND")
+		(at 193.04 22.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd55b2fe-032d-4c8e-a0dc-1503e6183fdf")
+		(property "Reference" "#PWR0123"
+			(at 193.04 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 19.304 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c3e8413-444d-4a1e-bd36-8ab3fcb9ace4")
+		)
+		(instances
+			(project "SoundSystem"
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/0d7e0d20-5f67-4e7f-8dc7-5b2548657d0a"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/f64e5c10-66fb-41aa-a969-8f024418cd80"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SoundSystem:GND")
 		(at 109.22 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -4141,7 +5647,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SoundSystem:R")
 		(at 74.93 29.21 90)
 		(unit 1)
 		(body_style 1)
@@ -4172,7 +5678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "SoundSystem:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 74.93 30.988 90)
 			(hide yes)
 			(show_name no)
@@ -4205,6 +5711,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 74.93 30.988 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F1102T5E"
+			(at 74.93 30.988 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17429"
+			(at 74.93 30.988 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "19d3b220-c67e-4f05-8679-25ea53b4ceb4")
 		)
@@ -4219,6 +5758,206 @@
 				)
 				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/f64e5c10-66fb-41aa-a969-8f024418cd80"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SoundSystem:GND")
+		(at 193.04 66.04 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa4f62fa-4bab-4f4f-ac8c-6e96f5956e78")
+		(property "Reference" "#PWR0119"
+			(at 193.04 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 69.596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cec22fce-0186-443d-ab22-a926191f7992")
+		)
+		(instances
+			(project "SoundSystem"
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/0d7e0d20-5f67-4e7f-8dc7-5b2548657d0a"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/f64e5c10-66fb-41aa-a969-8f024418cd80"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SoundSystem:C")
+		(at 193.04 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fee6246d-291e-471b-8508-c3891b62ad21")
+		(property "Reference" "C79"
+			(at 189.23 63.5001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 189.23 60.9601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SoundSystem:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 194.0052 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 193.04 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 194.0052 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0805KKX7R9BB105"
+			(at 194.0052 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C91185"
+			(at 194.0052 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b66b600a-5d2d-4afd-a874-e11244a43026")
+		)
+		(pin "2"
+			(uuid "0e87e79d-e9e5-425d-9969-e4bf1ba42f4a")
+		)
+		(instances
+			(project "SoundSystem"
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/0d7e0d20-5f67-4e7f-8dc7-5b2548657d0a"
+					(reference "C79")
+					(unit 1)
+				)
+				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/f64e5c10-66fb-41aa-a969-8f024418cd80"
+					(reference "C84")
 					(unit 1)
 				)
 			)

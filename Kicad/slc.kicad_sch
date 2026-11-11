@@ -5,7 +5,7 @@
 	(uuid "1de85252-d97f-40ff-84b6-145864272250")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "SoundSystem:C"
 			(pin_numbers
 				(hide yes)
 			)
@@ -160,7 +160,122 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
+		(symbol "SoundSystem:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SoundSystem:L"
 			(pin_numbers
 				(hide yes)
 			)
@@ -338,7 +453,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
+		(symbol "SoundSystem:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -468,121 +583,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1013,7 +1013,7 @@
 		(uuid "eaaa4c47-98e4-43f3-bdde-85ee077353bd")
 	)
 	(symbol
-		(lib_id "Device:L")
+		(lib_id "SoundSystem:L")
 		(at 119.38 93.98 90)
 		(unit 1)
 		(body_style 1)
@@ -1044,7 +1044,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoundSystem:L_TaiTech_TMPC1265_13.5x12.5mm"
 			(at 119.38 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1077,6 +1077,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "TAI-TECH"
+			(at 119.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TMPC1265HP-100MG-D"
+			(at 119.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C305223"
+			(at 119.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a8e74c86-f4d3-4df1-a3a1-41be0a05b1f3")
 		)
@@ -1097,7 +1130,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SoundSystem:C")
 		(at 128.27 85.09 0)
 		(unit 1)
 		(body_style 1)
@@ -1106,7 +1139,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "15a585da-2e63-48f7-9eb2-2471465521d4")
 		(property "Reference" "C92"
 			(at 132.08 83.8199 0)
@@ -1119,8 +1151,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 132.08 86.3599 0)
+		(property "Value" "1uF 100V film"
+			(at 129.032 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1130,7 +1162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x4.5"
+		(property "Footprint" "SoundSystem:C_Rect_L10.3mm_W7.2mm_P7.50mm_MKS4"
 			(at 129.2352 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1163,6 +1195,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "KNSCHA"
+			(at 129.2352 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MPE105J100V82CL0042"
+			(at 129.2352 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2831916"
+			(at 129.2352 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "29e2edac-9fa1-46cb-9071-358af278b708")
 		)
@@ -1183,7 +1248,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SoundSystem:R")
 		(at 167.64 77.47 180)
 		(unit 1)
 		(body_style 1)
@@ -1216,7 +1281,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoundSystem:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 169.418 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -1249,6 +1314,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 169.418 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF330KT5E"
+			(at 169.418 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22979"
+			(at 169.418 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b38faa32-6366-4746-8a52-8e78ca31055c")
 		)
@@ -1269,7 +1367,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SoundSystem:C")
 		(at 167.64 92.71 180)
 		(unit 1)
 		(body_style 1)
@@ -1302,7 +1400,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoundSystem:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 166.6748 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1335,6 +1433,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 166.6748 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB103"
+			(at 166.6748 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C100042"
+			(at 166.6748 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "668ce9c3-557e-404d-98a8-cb34dc5e5e7a")
 		)
@@ -1355,7 +1486,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SoundSystem:C")
 		(at 128.27 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -1377,7 +1508,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF 100V film"
 			(at 132.08 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1388,7 +1519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x4.5"
+		(property "Footprint" "SoundSystem:C_Rect_L10.3mm_W7.2mm_P7.50mm_MKS4"
 			(at 129.2352 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1421,6 +1552,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "KNSCHA"
+			(at 129.2352 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MPE105J100V82CL0042"
+			(at 129.2352 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2831916"
+			(at 129.2352 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6b642add-737b-47db-868e-637757ed83bf")
 		)
@@ -1441,7 +1605,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
+		(lib_id "SoundSystem:L")
 		(at 119.38 68.58 90)
 		(unit 1)
 		(body_style 1)
@@ -1472,7 +1636,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoundSystem:L_TaiTech_TMPC1265_13.5x12.5mm"
 			(at 119.38 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -1505,6 +1669,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "TAI-TECH"
+			(at 119.38 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TMPC1265HP-100MG-D"
+			(at 119.38 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C305223"
+			(at 119.38 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "047a626a-27cf-405e-ac3f-2b3efa56b8f4")
 		)
@@ -1525,7 +1722,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SoundSystem:R")
 		(at 167.64 85.09 180)
 		(unit 1)
 		(body_style 1)
@@ -1558,7 +1755,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoundSystem:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 169.418 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -1591,6 +1788,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 169.418 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF330KT5E"
+			(at 169.418 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22979"
+			(at 169.418 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8a19487e-695f-4a3c-a56d-3dece2b1584a")
 		)
@@ -1611,7 +1841,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SoundSystem:C")
 		(at 149.86 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -1633,7 +1863,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "1nF film"
 			(at 153.67 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1644,7 +1874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W4.0mm_P7.50mm_MKT"
+		(property "Footprint" "SoundSystem:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 150.8252 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1677,6 +1907,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Faratronic"
+			(at 150.8252 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C242A102J20C000"
+			(at 150.8252 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C280714"
+			(at 150.8252 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "209caff2-09c6-4a11-a84f-8238ae5551d1")
 		)
@@ -1697,7 +1960,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SoundSystem:C")
 		(at 167.64 69.85 180)
 		(unit 1)
 		(body_style 1)
@@ -1730,7 +1993,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoundSystem:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 166.6748 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -1763,6 +2026,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 166.6748 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB103"
+			(at 166.6748 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C100042"
+			(at 166.6748 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4069066c-2d3f-48ee-9484-01a2d4c92957")
 		)
@@ -1783,7 +2079,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SoundSystem:C")
 		(at 100.33 68.58 90)
 		(unit 1)
 		(body_style 1)
@@ -1813,7 +2109,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoundSystem:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 104.14 67.6148 0)
 			(hide yes)
 			(show_name no)
@@ -1846,6 +2142,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 104.14 67.6148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0805KRX7R9BB333"
+			(at 104.14 67.6148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C107150"
+			(at 104.14 67.6148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "87885bd5-b2e7-487e-a6bb-dedd1436f90a")
 		)
@@ -1866,7 +2195,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SoundSystem:C")
 		(at 100.33 73.66 90)
 		(unit 1)
 		(body_style 1)
@@ -1896,7 +2225,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoundSystem:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 104.14 72.6948 0)
 			(hide yes)
 			(show_name no)
@@ -1929,6 +2258,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 104.14 72.6948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0805KRX7R9BB333"
+			(at 104.14 72.6948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C107150"
+			(at 104.14 72.6948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e15ccd71-55db-4a9e-acde-70e0b32a9347")
 		)
@@ -1949,7 +2311,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "SoundSystem:GND")
 		(at 139.7 81.28 0)
 		(unit 1)
 		(body_style 1)
@@ -2031,7 +2393,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SoundSystem:C")
 		(at 149.86 85.09 0)
 		(unit 1)
 		(body_style 1)
@@ -2053,7 +2415,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "1nF film"
 			(at 153.67 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2064,7 +2426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W4.0mm_P7.50mm_MKT"
+		(property "Footprint" "SoundSystem:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 150.8252 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2088,6 +2450,39 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 149.86 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Faratronic"
+			(at 150.8252 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C242A102J20C000"
+			(at 150.8252 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C280714"
+			(at 150.8252 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
