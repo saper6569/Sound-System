@@ -1,0 +1,24 @@
+(version 1)
+
+# JLCPCB 4-layer (standard, no-extra-cost) manufacturing limits.
+# Global minimums live in Board Setup > Constraints; these add checks it can't express.
+
+(rule "JLC: PTH pad annular ring"
+	(constraint annular_width (min 0.15mm))
+	(condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'"))
+
+(rule "JLC: via annular ring"
+	(constraint annular_width (min 0.075mm))
+	(condition "A.Type == 'Via'"))
+
+(rule "JLC: NPTH to copper"
+	(constraint hole_clearance (min 0.25mm))
+	(condition "A.Pad_Type == 'NPTH, mechanical'"))
+
+(rule "JLC: PTH hole to hole (different nets)"
+	(constraint hole_to_hole (min 0.5mm))
+	(condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Net != B.Net"))
+
+(rule "JLC: silkscreen to pad"
+	(layer "?.Silkscreen")
+	(constraint silk_clearance (min 0.15mm)))
