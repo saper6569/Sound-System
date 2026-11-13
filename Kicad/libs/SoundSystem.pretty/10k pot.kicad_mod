@@ -105,4 +105,15 @@
 		(uuid "d99f6b46-b5f1-4fe2-bd97-8ee8375dba41")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/SoundSystem.3dshapes/10k pot.step"
+		(offset
+			(xyz 0 -11 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
 )

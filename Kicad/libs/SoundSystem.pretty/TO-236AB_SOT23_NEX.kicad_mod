@@ -425,4 +425,15 @@
 		(uuid "0ad05c60-5de0-4de3-afb9-373cdf792879")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/SoundSystem.3dshapes/TO-236AB_SOT23_NEX.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 270)
+		)
+	)
 )

@@ -44,4 +44,15 @@
 	(pad "4" thru_hole circle (at 7.62 0) (size 3 3) (drill 1.8) (layers "*.Cu" "*.Mask"))
 	(pad "" np_thru_hole circle (at 3.81 -3.81) (size 3.8 3.8) (drill 3.8) (layers "*.Cu" "*.Mask"))
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/SoundSystem.3dshapes/Fuseholder_Blade_Mini_Littelfuse_01530008.step"
+		(offset
+			(xyz 3.81 1.91 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 270)
+		)
+	)
 )

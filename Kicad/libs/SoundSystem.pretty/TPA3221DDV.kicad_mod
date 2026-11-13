@@ -525,4 +525,15 @@
 		(uuid "5cf2acda-9b80-431b-8d96-0211ea62d466")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/SoundSystem.3dshapes/TPA3221DDV.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
 )

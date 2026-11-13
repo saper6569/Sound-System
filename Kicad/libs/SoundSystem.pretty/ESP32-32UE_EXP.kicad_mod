@@ -713,4 +713,15 @@
 		(uuid "87d59b10-be0f-4ebb-bf48-940a782808ea")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/SoundSystem.3dshapes/ESP32-32UE_EXP.step"
+		(offset
+			(xyz 0 3.055 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

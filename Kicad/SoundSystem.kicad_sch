@@ -5694,8 +5694,7 @@
 	)
 	(symbol
 		(lib_id "SoundSystem:Conn_01x03_Pin")
-		(at 71.12 147.32 0)
-		(mirror y)
+		(at 71.12 147.32 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5705,7 +5704,7 @@
 		(dnp no)
 		(uuid "719df9ee-6f25-4f6d-bc03-0d3029ca9857")
 		(property "Reference" "J30"
-			(at 75.438 148.59 0)
+			(at 75.438 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5716,7 +5715,7 @@
 			)
 		)
 		(property "Value" "PSU-Amp-Power"
-			(at 88.646 146.05 0)
+			(at 88.646 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
