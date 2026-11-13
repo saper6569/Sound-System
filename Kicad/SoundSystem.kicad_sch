@@ -2422,6 +2422,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 118.11) (xy 147.32 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ad834c-b887-4752-84f8-eda6ccd95660")
+	)
+	(wire
+		(pts
 			(xy 35.56 30.48) (xy 39.37 30.48)
 		)
 		(stroke
@@ -2429,6 +2439,16 @@
 			(type default)
 		)
 		(uuid "83009052-20c2-4e2a-91d8-65ba6fb878b3")
+	)
+	(wire
+		(pts
+			(xy 140.97 113.03) (xy 147.32 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f0ed38-5316-428b-818b-307c26182701")
 	)
 	(wire
 		(pts
@@ -2449,6 +2469,16 @@
 			(type default)
 		)
 		(uuid "97908fc6-a28b-4c0f-a8e9-b0fb1a86afc4")
+	)
+	(wire
+		(pts
+			(xy 140.97 115.57) (xy 147.32 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b2ff61d-aec1-4335-81de-96516640380b")
 	)
 	(wire
 		(pts
@@ -2519,6 +2549,16 @@
 			(type default)
 		)
 		(uuid "c5d4a9c3-3143-4029-b2e5-0342420f2b9f")
+	)
+	(wire
+		(pts
+			(xy 140.97 110.49) (xy 143.51 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf74aeab-57ad-4647-a811-76f149bb2916")
 	)
 	(wire
 		(pts
@@ -6087,7 +6127,7 @@
 	)
 	(symbol
 		(lib_id "SoundSystem:Conn_01x04_Pin")
-		(at 142.24 115.57 0)
+		(at 135.89 115.57 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6098,7 +6138,7 @@
 		(dnp no)
 		(uuid "8ac8df0e-dec8-4421-b33f-61f757f1b118")
 		(property "Reference" "J9"
-			(at 139.7 122.936 0)
+			(at 133.35 122.936 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6108,7 +6148,7 @@
 			)
 		)
 		(property "Value" "MC-Input-Bus"
-			(at 139.7 120.396 0)
+			(at 133.35 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6118,7 +6158,7 @@
 			)
 		)
 		(property "Footprint" "SoundSystem:PinHeader_1x04_P2.54mm_Vertical"
-			(at 142.24 115.57 0)
+			(at 135.89 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6129,7 +6169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 115.57 0)
+			(at 135.89 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6140,7 +6180,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 142.24 115.57 0)
+			(at 135.89 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6151,7 +6191,7 @@
 			)
 		)
 		(property "Manufacturer" "XFCN"
-			(at 142.24 115.57 0)
+			(at 135.89 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6162,7 +6202,7 @@
 			)
 		)
 		(property "MPN" "PZ254V-11-04P"
-			(at 142.24 115.57 0)
+			(at 135.89 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6173,7 +6213,7 @@
 			)
 		)
 		(property "LCSC" "C492403"
-			(at 142.24 115.57 0)
+			(at 135.89 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7974,7 +8014,7 @@
 	)
 	(symbol
 		(lib_id "SoundSystem:GND")
-		(at 147.32 110.49 0)
+		(at 143.51 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7984,7 +8024,7 @@
 		(dnp no)
 		(uuid "e9966b99-bad4-45c4-bcfa-1c2823f1c46e")
 		(property "Reference" "#PWR0207"
-			(at 149.86 109.22 0)
+			(at 146.05 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7996,7 +8036,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 111.76 0)
+			(at 142.24 109.474 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8007,7 +8047,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 110.49 0)
+			(at 143.51 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8018,7 +8058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 110.49 0)
+			(at 143.51 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8029,7 +8069,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\""
-			(at 147.32 110.49 0)
+			(at 143.51 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
