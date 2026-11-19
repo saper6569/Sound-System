@@ -3687,16 +3687,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 153.67) (xy 78.74 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "566bc4bd-46df-4cd9-abd1-f29689077c07")
-	)
-	(wire
-		(pts
 			(xy 40.64 110.49) (xy 71.12 110.49)
 		)
 		(stroke
@@ -4317,7 +4307,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 153.67) (xy 38.1 153.67)
+			(xy 30.48 153.67) (xy 78.74 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6387,118 +6377,6 @@
 			(project "SoundSystem"
 				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/f16c3d29-2f5d-4c4d-ba4f-a1fa0f69088e"
 					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SoundSystem:R")
-		(at 41.91 153.67 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0d2ce943-930f-490d-9091-9bbde388961e")
-		(property "Reference" "R54"
-			(at 41.656 151.384 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 41.91 155.702 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SoundSystem:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 41.91 155.448 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 41.91 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 41.91 155.448 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0805W8F0000T5E"
-			(at 41.91 155.448 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C17477"
-			(at 41.91 155.448 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7b3cd758-a517-47ce-9dba-5e62e1f8aa2c")
-		)
-		(pin "1"
-			(uuid "9bacece1-5958-493f-bc0a-aaa1528850fe")
-		)
-		(instances
-			(project "SoundSystem"
-				(path "/ef5bdc6f-cba8-49ce-9423-d6c9041fdb9d/f16c3d29-2f5d-4c4d-ba4f-a1fa0f69088e"
-					(reference "R54")
 					(unit 1)
 				)
 			)

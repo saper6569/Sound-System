@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "SoundSystem")(type "KiCad")(uri "${KIPRJMOD}/libs/SoundSystem.pretty")(options "")(descr "All footprints used by this project"))
+)
